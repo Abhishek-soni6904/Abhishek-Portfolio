@@ -30,6 +30,6 @@ const router = createBrowserRouter([
   },
 ],
 {
-  basename: "/Abhishek-portfolio/",
+  basename: "/Abhishek-Portfolio/",
 });
 export default router;

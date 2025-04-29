@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaReact, FaPython, FaPhp } from 'react-icons/fa';
-import ProjectDetail from './projectDetail';
+import ProjectDetail from './ProjectDetail';
 
 export default function ProjectCards({ projects }) {
     const [activeProject, setActiveProject] = useState(null);

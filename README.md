@@ -15,7 +15,7 @@ A modern, responsive developer portfolio built with **React**, **Vite**, and **T
 
 ## Demo
 
-[Live Demo](#) <!-- Add your deployed link here -->
+[Live Demo](https://abhishek-soni6904.github.io/Abhishek-Portfolio)
 
 ## Screenshots
 
