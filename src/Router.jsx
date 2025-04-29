@@ -28,5 +28,8 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+],
+{
+  basename: "/Abhishek-portfolio/",
+});
 export default router;
