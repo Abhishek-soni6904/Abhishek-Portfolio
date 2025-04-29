@@ -19,7 +19,15 @@ A modern, responsive developer portfolio built with **React**, **Vite**, and **T
 
 ## Screenshots
 
-<!-- You can add screenshots here if desired -->
+
+| Home                                         | About                                        |
+|---------------------------------------------|----------------------------------------------|
+| ![Home](src/assets/projectImages/home.webp)   | ![About](src/assets/screenshots/about.webp)  |
+
+| Projects                                     | Contact                                      |
+|---------------------------------------------|----------------------------------------------|
+| ![Projects](src/assets/screenshots/projects.webp) | ![Contact](src/assets/screenshots/contact.webp) |
+
 
 ## Customization
 

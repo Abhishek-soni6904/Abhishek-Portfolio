@@ -6,6 +6,15 @@ const getImage = (filename) =>
   images[`/src/assets/projectImages/${filename}`] ?? null;
 const projectData = [
   {
+    name: "Portfolio Website",
+    techStack: ["React", "Vite", "Tailwind CSS"],
+    githubUrl: "https://github.com/Abhishek-soni6904/Abhishek-Portfolio",
+    liveUrl: "https://abhishek-soni6904.github.io/Abhishek-Portfolio",
+    summary:
+      "This Portfolio is a modern, responsive developer portfolio built with React, Vite, and Tailwind CSS. It showcases projects, skills, and contact info with smooth navigation. Customize it easily for your own use.",
+    image: getImage("home.webp"),
+  },
+  {
     name: "Anjaneya Arena GMS",
     techStack: [
       "PHP",
