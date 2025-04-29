@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@400;600;700&display=swap");
+@import "tailwindcss";
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+@layer components {
+  .nav-icon {
+    @apply inline w-6 h-6 sm:w-5 sm:h-5 group-hover:text-indigo-500 transition;
+  }
+
+  .social-icon {
+    @apply w-10 h-10 text-xl text-white rounded-full bg-white/20 inline-flex items-center justify-center hover:bg-indigo-500 transition;
+  }
+}
+@layer utilities {
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+}
