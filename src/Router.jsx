@@ -1,11 +1,11 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom"; // Change this import
 import RootLayout from "./RootLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 
-const router = createBrowserRouter([
+const router = createHashRouter([ 
   {
     path: "/",
     element: <RootLayout />,
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path:'about',
-        element:<About/>
+        path: 'about',
+        element: <About />,
       },
       {
         path: "contact",
@@ -28,8 +28,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-],
-{
-  basename: "/Abhishek-Portfolio/",
-});
+]);
+
 export default router;
