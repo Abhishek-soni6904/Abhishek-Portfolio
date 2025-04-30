@@ -13,12 +13,27 @@ A modern, responsive developer portfolio built with **React**, **Vite**, and **T
 - 📄 **Resume Download**: Downloadable resume link.
 - ✉️ **Contact Form**: Send messages directly via FormSubmit.
 
+## Performance Scores
+
+- **Desktop:**
+  - Performance: 99
+  - Accessibility: 96
+  - Best Practices: 96
+  - SEO: 100
+
+- **Mobile:**
+  - Performance: 95
+  - Accessibility: 100
+  - Best Practices: 96
+  - SEO: 100
+
+These scores reflect the website's optimization and performance across both desktop and mobile devices.
+
 ## Demo
 
 [Live Demo](https://abhishek-soni6904.github.io/Abhishek-Portfolio)
 
 ## Screenshots
-
 
 | Home                                         | About                                        |
 |---------------------------------------------|----------------------------------------------|
@@ -27,7 +42,6 @@ A modern, responsive developer portfolio built with **React**, **Vite**, and **T
 | Projects                                     | Contact                                      |
 |---------------------------------------------|----------------------------------------------|
 | ![Projects](src/assets/screenshots/projects.webp) | ![Contact](src/assets/screenshots/contact.webp) |
-
 
 ## Customization
 
@@ -56,7 +70,8 @@ A modern, responsive developer portfolio built with **React**, **Vite**, and **T
 - [FormSubmit](https://formsubmit.co/) (for contact form)
 
 ---
-## Contact📩
+
+## Contact📩  
 For any queries or support, feel free to reach out:
 - **👤 Name**: Abhishek Soni
 - **📧 Email**: abhisheks6904@gmail.com
