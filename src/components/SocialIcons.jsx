@@ -32,7 +32,7 @@ export default function SocialIcons() {
                     <a
                         key={label}
                         href={link}
-                        className='social-icon text-white text-xl'
+                        className=' w-10 h-10 text-xl text-white rounded-full bg-white/20 inline-flex items-center justify-center hover:bg-indigo-500 transition'
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={label}

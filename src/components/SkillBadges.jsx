@@ -36,7 +36,7 @@ export default function SkillBadges() {
                     <Icon className="text-6xl text-indigo-500" />
                     <h3 className="text-lg font-semibold mb-1">{name}</h3>
                     <div
-                        className={`text-center absolute bg-indigo-500/5 backdrop-blur-xl backdrop-brightness-50 w-full h-full top-0 left-0 rounded-lg p-4 flex flex-col items-center justify-center transition-opacity duration-300 ${activeSkill === name ? 'opacity-100' : 'opacity-0 hover:opacity-100 group-focus:opacity-100'}`}
+                        className={`text-center absolute inset-0 bg-indigo-500/5 backdrop-blur-xl backdrop-brightness-50 w-full h-full rounded-lg p-4 flex flex-col items-center justify-center transition-opacity duration-300 ${activeSkill === name ? 'opacity-100' : 'opacity-0 hover:opacity-100 group-focus:opacity-100'}`}
                     >
                         <h3 className="text-xl font-bold mb-1 text-indigo-500">{name}</h3>
                         <p className="text-sm text-gray-300">{description}</p>

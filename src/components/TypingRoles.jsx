@@ -66,7 +66,7 @@ export default function TypingRoles({
     return <div className="text-2xl md:text-3xl font-semibold text-white mt-4" aria-label={`Cycling through roles: ${roles.join(", ")}`}
         role="text">A &nbsp;
         <span className="text-indigo-500">{text}</span>
-        <span className="inline-block w-1 h-10 ml-1 bg-indigo-700 animate-blink">
+        <span className="inline-block w-1 h-8 md:h-10 ml-1 bg-indigo-700 animate-blink">
             &nbsp;
         </span>
     </div>;

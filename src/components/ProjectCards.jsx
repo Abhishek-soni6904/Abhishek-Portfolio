@@ -26,7 +26,7 @@ export default function ProjectCards({ projects }) {
                         onClick={() => toggleActiveProject(index)}
                         role="button"
                         tabIndex={0}
-                        className="group relative bg-white/5 rounded-xl overflow-hidden shadow-lg hover:shadow-indigo-500/20 hover:ring-2 hover:ring-indigo-500/30 transition-all duration-300 cursor-pointer h-full flex flex-col"
+                        className="group relative bg-white/5 rounded-lg overflow-hidden shadow-lg hover:shadow-indigo-500/20 hover:ring-2 hover:ring-indigo-500/30 transition-all duration-300 cursor-pointer h-full flex flex-col"
                     >
                         <div className="h-48 overflow-hidden">
                             {project.image === null ?
@@ -40,7 +40,7 @@ export default function ProjectCards({ projects }) {
                         <h3 className="p-5 text-xl font-semibold mt-2 text-gray-300 text-center">
                             {project.name}
                         </h3>
-                        <div className="absolute inset-0 bg-indigo-500/10 backdrop-blur-xl backdrop-brightness-25 flex items-center justify-center opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 rounded-xl">
+                        <div className="absolute inset-0 bg-indigo-500/10 backdrop-blur-xl backdrop-brightness-25 flex items-center justify-center opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 rounded-lg">
                             <span className="px-4 py-2 bg-indigo-700 text-white rounded-lg text-sm">
                                 Click to View Details
                             </span>

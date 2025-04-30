@@ -16,7 +16,7 @@ export default function Projects() {
 
   return (
     <section className="md:py-10" >
-      <header className="pb-8 border-b border-gray-700">
+      <header className="content-separator">
         <h1 className='text-4xl md:text-6xl poppins font-semibold border-b-4 border-indigo-500 pb-2 inline-block'>Projects</h1>
         <div className='mt-6'>
           <div className="relative group">
@@ -27,7 +27,7 @@ export default function Projects() {
               aria-label="Search Projects"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
-              className="w-full py-3 px-7 bg-white/5 ring-1 ring-white/20 focus:ring-2 focus:ring-indigo-500 rounded-full focus:outline-none text-gray-300 placeholder:text-white/30 transition-all duration-300 hover:ring-indigo-500/50 shadow-lg"
+              className="w-full py-3 px-7 bg-white/5 ring-1 ring-white/20 focus:ring-2 focus:ring-indigo-500 rounded-lg focus:outline-none text-gray-300 placeholder:text-white/30 transition-all duration-300 hover:ring-indigo-500/50 shadow-lg"
             />
             <div className="absolute right-4 top-1/2 -translate-y-1/2 text-white/30 group-focus-within:text-indigo-500 transition duration-300">
               <FaSearch className="text-lg" />

@@ -14,8 +14,8 @@ export default function Home() {
         <TypingRoles />
         <p className='text-lg text-gray-300 my-6'> I build responsive web applications with modern technologies,focusing on creating memorable user experiences.</p>
         <div className='flex flex-wrap gap-4'>
-          <Link to={"/projects"} className='rounded-full bg-indigo-600 flex gap-2 items-center justify-center px-6 py-3 hover:bg-indigo-700 font-medium transition'>View My Work <FaArrowRight className='ml-1' /></Link>
-          <Link to={"/contact"} className='rounded-full px-6 py-3 border-1 border-white/20 hover:bg-white/10 transition font-medium'>Let's Connect</Link>
+          <Link to={"/projects"} className='rounded-lg bg-indigo-600 flex gap-2 items-center justify-center px-6 py-3 hover:bg-indigo-700 font-medium transition'>View My Work <FaArrowRight className='ml-1' /></Link>
+          <Link to={"/contact"} className='rounded-lg px-6 py-3 border-1 border-white/20 hover:bg-white/10 transition font-medium'>Let's Connect</Link>
         </div>
       </div>
       <div className="md:flex-1 flex justify-center mt-10 md:mt-0">

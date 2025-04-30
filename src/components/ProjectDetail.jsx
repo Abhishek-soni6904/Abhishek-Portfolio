@@ -19,7 +19,7 @@ export default function ProjectDetail({ setActiveProject, activeProject: project
     return (
         <article className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
             <div
-                className="bg-[#111827] ring-2 ring-indigo-700 rounded-xl max-w-3xl w-full max-h-dvh overflow-y-auto"
+                className="bg-[#111827] ring-2 ring-indigo-700 rounded-lg max-w-3xl w-full max-h-[calc(100dvh-50px)] md:max-h-dvh overflow-y-auto"
                 onClick={(e) => e.stopPropagation()}
             >
                 <div className="flex justify-between items-center p-6 border-b border-white/10">

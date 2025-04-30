@@ -30,7 +30,7 @@ export default function NavigationMenu() {
                 <li>
                     <a href={AbhishekSoni_Resume} download aria-label="Download Resume" title='Download Resume' className="group text-gray-500 hover:text-white">
                         <div className='flex-col sm:w-25 mx-auto lg:flex-row flex items-center lg:gap-2'>
-                            <FaFileAlt className="nav-icon group-hover:text-indigo-500" />
+                            <FaFileAlt className="nav-icon" />
                             <div className="relative h-6 overflow-hidden w-20 lg:text-left max-sm:sr-only">
                                 <div className='group-hover:translate-y-full group-hover:opacity-0 transition-transform duration-300 '>Resume</div>
                                 <div className='absolute top-0 transition-transform translate-y-full  opacity-0 group-hover:translate-y-0 group-hover:opacity-100'>Download</div>

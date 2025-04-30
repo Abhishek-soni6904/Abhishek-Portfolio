@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SocialIcons from '../components/SocialIcons'
-
+import SectionHeading from '../components/SectionHeading'
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -62,7 +62,7 @@ export default function Contact() {
 
   return (
     <section className="md:py-10">
-      <header className="pb-8 border-b border-gray-700">
+      <header className="content-separator">
         <h1 className='text-4xl md:text-6xl poppins font-semibold border-b-4 border-indigo-500 pb-2 inline-block'>Get In Touch</h1>
         <p className='text-gray-300 text-md sm:text-lg mt-6'>Have a project in mind or want to discuss opportunities? I'd love to hear from you! Fill out the form below or reach out through my social media channels.</p>
       </header>
@@ -70,20 +70,17 @@ export default function Contact() {
       <div className="grid md:grid-cols-2 gap-12 mt-10">
         <div>
           <section className="py-6 border-b border-gray-700">
-            <h2 className='poppins text-2xl text-indigo-500 font-semibold flex items-center'>
-              <span className="w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center text-white mr-3">1</span>
-              Contact Information
-            </h2>
+          <SectionHeading number={1} >Contact Information</SectionHeading>
             <div className="mt-6 space-y-4 sm:pl-11">
-              <div className="bg-white/5 p-4 rounded-lg">
+              <div className="content-box">
                 <h3 className="font-medium text-lg">Email</h3>
                 <a href='mailto:abhisheks6904@gmail.com' className=" inline-block mt-1 text-indigo-500 hover:underline ml-1">abhisheks6904@gmail.com</a>
               </div>
-              <div className="bg-white/5 p-4 rounded-lg">
+              <div className="content-box">
                 <h3 className="font-medium text-lg">Location</h3>
                 <p className="text-gray-400 mt-1">Chittorgarh, Rajasthan, India, 312001</p>
               </div>
-              <div className="bg-white/5 p-4 rounded-lg">
+              <div className="content-box">
                 <h3 className="font-medium text-lg">Connect with me</h3>
                 <div className="mt-3">
                   <SocialIcons />
@@ -93,13 +90,10 @@ export default function Contact() {
           </section>
 
           <section className="py-6 mt-8">
-            <h2 className='poppins text-2xl text-indigo-500 font-semibold flex items-center'>
-              <span className="w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center text-white mr-3">2</span>
-              Response Time
-            </h2>
+          <SectionHeading number={2} >Response Time</SectionHeading>
             <div className="mt-6 sm:pl-11">
-              <div className="bg-white/5 p-4 rounded-lg">
-                <p className="text-gray-300">I typically respond to all inquiries within 24-48 hours. For urgent matters, please mention it in your message.</p>
+              <div className="content-box">
+                <p className="text-gray-300">I typically respond to all inquiries within 12-24 hours. For urgent matters, please mention it in your message.</p>
               </div>
             </div>
           </section>
@@ -107,10 +101,7 @@ export default function Contact() {
 
         <div>
           <section className="py-6">
-            <h2 className='poppins text-2xl text-indigo-500 font-semibold flex items-center'>
-              <span className="w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center text-white mr-3">3</span>
-              Send a Message
-            </h2>
+          <SectionHeading number={3} >Send a Message</SectionHeading>
             <div className="mt-6 sm:pl-11">
               {formStatus.error && <div className="bg-red-500/20 border border-red-500 rounded-lg p-4 text-center">
                 <p className="text-red-400 font-medium">Oops! Something went wrong. Please try again later.</p>
@@ -131,7 +122,7 @@ export default function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-3 text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-2 sm:p-3 text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                       required
                     />
                   </div>
@@ -143,7 +134,7 @@ export default function Contact() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-3 text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-2 sm:p-3text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                       required
                     />
                   </div>
@@ -155,7 +146,7 @@ export default function Contact() {
                       name="subject"
                       value={formData.subject}
                       onChange={handleChange}
-                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-3 text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-2 sm:p-3 text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                       required
                     />
                   </div>
@@ -167,13 +158,13 @@ export default function Contact() {
                       value={formData.message}
                       onChange={handleChange}
                       rows="5"
-                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-3 text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                      className="w-full bg-white/5 border border-gray-700 rounded-lg p-2 sm:p-3 text-white focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                       required
                     ></textarea>
                   </div>
                   <button
                     type="submit"
-                    className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
+                    className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full cursor-pointer"
                   >
                     Send Message
                   </button>

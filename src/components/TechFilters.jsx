@@ -16,7 +16,7 @@ export default function TechFilters({ selectedTechs, setSelectedTechs }) {
             {filters.map((filter) => (
                 <button onClick={() => toggleSelected(filter)}
                     key={filter}
-                    className={` max-md:text-sm text-gray-300 hover:bg-indigo-500 hover:text-white cursor-pointer rounded-full px-4 py-2 transition duration-300 ${selectedTechs.includes(filter) ? "bg-indigo-700" : "bg-white/5 "}`}>
+                    className={` max-md:text-sm text-gray-300 hover:bg-indigo-500 hover:text-white cursor-pointer rounded-lg px-4 py-2 transition duration-300 ${selectedTechs.includes(filter) ? "bg-indigo-700" : "bg-white/5 "}`}>
                     {filter}
                 </button>
             ))}
