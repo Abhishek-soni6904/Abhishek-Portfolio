@@ -7,7 +7,7 @@ const getImage = (filename) =>
 const projectData = [
   {
     name: "Portfolio Website",
-    techStack: ["React", "Vite", "Tailwind CSS"],
+    techStack: ["React", "Vite", "Tailwind CSS", "React Router Dom"],
     githubUrl: "https://github.com/Abhishek-soni6904/Abhishek-Portfolio",
     liveUrl: "https://abhishek-soni6904.github.io/Abhishek-Portfolio",
     summary:
@@ -30,6 +30,15 @@ const projectData = [
     summary:
       "A fitness center management system with membership tracking, transactions, announcements, and responsive dashboards for admins and members.",
     image: getImage("anjaneyaArena.webp"),
+  },
+  {
+    name: 'Redux Cart App',
+    techStack: ["React", "Redux", "Redux toolkit", "Vite", "Tailwind CSS", "React Router Dom"],
+    githubUrl: "https://github.com/Abhishek-soni6904/redux-cart-app",
+    liveUrl: "https://abhishek-soni6904.github.io/redux-cart-app/",
+    summary:
+      "A sleek and responsive e-commerce app built with React, Redux Toolkit, and Tailwind CSS — featuring cart management, product search, and persistent state with localStorage.",
+    image: getImage("redux-cart-app.webp")
   },
   {
     name: "React Recipe App",
