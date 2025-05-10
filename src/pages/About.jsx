@@ -14,7 +14,7 @@ export default function About() {
         <SectionHeading number={1} >Education</SectionHeading>
         <ul className="mt-6 space-y-6 sm:pl-11">
           <li className="content-box">
-            <h3 className=' font-medium text-lg'>Vision Group of Colleges, Chittorgarh</h3>
+            <h3 className=' font-medium text-lg'>Vision College of Commerce, Chittorgarh</h3>
             <p className='text-gray-400 mt-2 sm:ml-4' >Bachelor of Computer Application | June 2022-August 2025</p>
           </li>
           <li className="content-box">
