@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython, FaPhp, FaCopyright } from 'react-icons/fa';
-import { SiTailwindcss } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython, FaPhp, FaCopyright, FaGitAlt, FaGithub } from 'react-icons/fa';
+import { SiTailwindcss, SiRedux } from 'react-icons/si';
 import { TbBrandCpp } from "react-icons/tb";
 
 const badges = [
@@ -9,6 +9,9 @@ const badges = [
     { name: 'JavaScript', Icon: FaJsSquare, description: 'Good understanding of ES6+ features including AJAX, DOM manipulation, and event handling. Utilized in multiple projects for interactivity.' },
     { name: 'React', Icon: FaReact, description: 'Experience with React.js for building dynamic user interfaces. Familiar with hooks, state management, and component lifecycle.' },
     { name: 'Tailwind CSS', Icon: SiTailwindcss, description: 'Basic proficiency in utility-first CSS, used in two projects for rapid, responsive design implementation.' },
+    { name: 'Redux', Icon: SiRedux, description: 'Basic understanding of Redux for state management in React apps. Used in one project to manage global state efficiently with actions and reducers.' },
+    { name: 'GitHub', Icon: FaGithub, description: 'Experienced in using GitHub for project hosting, collaboration, issue tracking, and managing repositories with proper commit messages and branching strategies.' },
+    { name: 'Git', Icon: FaGitAlt, description: 'Familiar with version control using Git, including branching, merging, and resolving conflicts. Used in all projects for maintaining code history and collaboration.' },
     { name: 'PHP', Icon: FaPhp, description: 'Basic knowledge of PHP, used in one project for backend development.' },
     { name: 'Python', Icon: FaPython, description: 'Basic knowledge of Python made two very simple projects.' },
     { name: 'C++', Icon: TbBrandCpp, description: 'Basic knowledge of C++' },
